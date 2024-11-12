@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+  <title>Shakira's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+</body>
+
+
+     <header class="header">
+
+      <a href="#home" class="logo">
+        <img src="logo.png" alt="Shakira Tan Logo" class="logo-img">
+        Shakira <span>Tan</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Project</a>
+      </nav>
+
+    <a href="#contact">
+  <button class="gradient-btn">Contact Me</button>
+</a>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Shakira</span></h1>
+        <h3>
+        <P>Pursuer of Dreams, Lifelong Leaner 💗<p>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/shakira.tan.17?mibextid=LQQJ4d" target="_blank">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/shakirara_tan/?igsh=N3dxbjB2NG9qb3lu&utm_source=qr&fbclid=IwY2xjawGgO5pleHRuA2FlbQIxMAABHXQfcH4M6QfiwsGhXsDP_EygJ_EY5lFHKAw41GndcuOqsh1O8wWw21Jv9A_aem_0joY7RegUsje-elKgVuNdw#" target="_blank">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="https://github.com/ShakiraTan" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+                  
+               <div class="btn-group">
+                <!-- Updated View Resume Button -->
+                <a href="RESUME.pdf" target="_blank" class="btn">View Resume</a>
+                <a href="#contact" class="btn">Contact</a>
+              </div>
+            </div>
+             
+          <div class="home-img">
+            <img src="image.jpg"alt="">
+          </div>
+
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image1.jpg" alt="">
+      </div>
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>I am Shakira Tan, a dedicated and ambitious individual with a passion for learning and growth. My journey is fueled by curiosity and a strong drive to achieve my dreams, constantly seeking new skills and knowledge to further my personal and professional development. As a working student, I balance academic pursuits with practical experience, honing skills in HTML, CSS, and project management, while tackling challenges such as time management and mental wellness. My ultimate goal is to create innovative solutions and make a meaningful impact through my work.</p>
+          <a href="#" class="btn">Read more</a>
+      </div>
+      
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+    
+      <div class="services-container">
+          <!-- Graphic Design Service -->
+          <div class="service-box">
+              <div class="service-info" onclick="toggleDescription('graphic-design')">
+                  <i class="bx bx-figma"></i>
+                  <h4>Graphic Design Services</h4>
+                  <p>Branding & Logo Design</p>
+              </div>
+              <div id="graphic-design" class="service-description" style="display: none;">
+                  <!-- Add an image for Graphic Design -->
+                  <img src="logo1.png" alt="Graphic Design" class="service-image">
+                  <p>Branding & Logo Design: Custom logo design, brand identity creation, and style guides.</p>
+                  <p>Print Design: Business cards, brochures, posters, flyers, banners, packaging.</p>
+              </div>
+          </div>
+    
+          <!-- Brand Strategy & Consulting Service -->
+          <div class="service-box">
+              <div class="service-info" onclick="toggleDescription('brand-strategy')">
+                  <i class="bx bx-code"></i>
+                  <h4>Brand Strategy & Consulting</h4>
+                  <p>Brand Identity Development</p>
+              </div>
+              <div id="brand-strategy" class="service-description" style="display: none;">
+                  <!-- Add an image for Brand Strategy -->
+                  <img src="logo4.jpg" alt="Brand Strategy" class="service-image">
+                  <p>Brand Identity Development: Creating cohesive brand strategies, including brand messaging, positioning, and visual identity.</p>
+                  <p>Market Research: Analyzing competitors, target demographics, and trends to develop a strong brand strategy.</p>
+                  <p>Marketing Collateral Design: Brochures, flyers, posters, banners, and digital ads that align with your brand.</p>
+                  <p>Content Strategy: Helping businesses plan and create content that resonates with their target audience.</p>
+              </div>
+          </div>
+    
+          <!-- Photography & Videography Service -->
+          <div class="service-box">
+              <div class="service-info" onclick="toggleDescription('photography-videography')">
+                  <i class="bx bx-camera"></i>
+                  <h4>Photography & Videography</h4>
+                  <p>Product Photography</p>
+              </div>
+              <div id="photography-videography" class="service-description" style="display: none;">
+                  <!-- Add an image for Photography & Videography -->
+                  <img src="logo3.png" alt="Photography & Videography" class="service-image">
+                  <p>Product Photography: High-quality images of products for e-commerce sites.</p>
+                  <p>Event Photography: Capturing moments from events like conferences, weddings, and corporate functions.</p>
+                  <p>Videography & Editing: Creating promotional videos, social media content, and event highlights.</p>
+                  <p>Photo Editing & Retouching: Enhancing images with color correction, background removal, etc.</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    
+
+          
+      </div>
+  </section>
+
+    </section>
+    <section class="project" id="projects">
+      <h2 class="heading">Projects</h2>
+      
+      <div class="projects-box">
+        <div class="project-card">
+          <div class="project-content">
+            <h3 id="project1-text">REGISTRATION FORM</h3>
+            <p id="project1-description">GYM Registration</p>
+            <div class="btn" onclick="toggleProject('project1')">Review Project</div>
+            <div id="project1" class="project-img" style="display: none;">
+              <img src="project1.png" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <div class="project-card">
+          <div class="project-content">
+            <h3 id="project2-text">INVENTORY SYSTEM</h3>
+            <p id="project2-description">Takoyadon Inventory System</p>
+            <div class="btn" onclick="toggleProject('project2')">Review Project</div>
+            <div id="project2" class="project-img" style="display: none;">
+              <img src="project2.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-content">
+            <h3 id="project3-text">LOGIN FORM</h3>
+            <p id="project3-description">Simple LogIn Form</p>
+            <div class="btn" onclick="toggleProject('project3')">Review Project</div>
+            <div id="project3" class="project-img" style="display: none;">
+              <img src="project3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Contact Form and Footer Here -->
+  
+    <script>
+      // Function to toggle the visibility of the project images
+      function toggleProject(projectId) {
+        var projectImage = document.getElementById(projectId);
+        if (projectImage.style.display === "block") {
+          projectImage.style.display = "none";
+        } else {
+          projectImage.style.display = "block";
+        }
+      }
+    </script>
+    
+    
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form id="contact-form">
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" name="user_name" placeholder="Full Name" required>
+          <input type="email" name="user_email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+          <input type="number" name="user_phone" placeholder="Phone Number" required>
+          <input type="text" name="user_subject" placeholder="Subject" required>
+        </div>
+      </div>
+
+
+        <div class="input-group-2">
+            <textarea name="" id=""
+            placeholder="Your Message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+      </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="http://surl.li/zeicfy/ShakiraTan" target="_blank">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="https://http://surl.li/volreg/ShakiraTan" target="_blank">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="https://github.com/ShakiraTan" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+      </div>
+    
+      <!-- Scroll-to-Top Button -->
+      <a href="#top" class="arrow-button">
+        <i class="arrow-icon">&uarr;</i> <!-- Up arrow symbol -->
+    </a>
+
+    
+      <ul class="list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    
+      <p class="copyright">
+        @ Shakira Tan | All Rights Reserved
+      </p>
+    </footer>
+
+<script>
+  // Function to toggle the visibility of the service description
+  function toggleDescription(serviceId) {
+      // Get the element that contains the description
+      var serviceDescription = document.getElementById(serviceId);
+      
+      // Toggle the display property
+      if (serviceDescription.style.display === "block") {
+          serviceDescription.style.display = "none"; // Hide if already visible
+      } else {
+          serviceDescription.style.display = "block"; // Show if hidden
+      }
+  }
+</script>
+
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+    alert("Thank you for your message! We will get back to you soon.");
+    this.reset(); // Clear the form
+  });
+</script>
+
+        
+        
+        </footer>
+        
+        <script src="/script.js"></script>
+        </body>
+        </html>
+        
